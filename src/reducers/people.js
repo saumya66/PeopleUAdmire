@@ -1,4 +1,4 @@
-const cases = (people = [], action) => {
+export default (people = [], action) => {
 	switch (action.type) {
 		case "GET_PEOPLE":
 			return action.payload;
@@ -14,5 +14,4 @@ const cases = (people = [], action) => {
 	}
 };
 
-export default cases;
 //Update the state

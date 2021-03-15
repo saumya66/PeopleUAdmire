@@ -22,6 +22,7 @@ body {
 .desc {
 	font-size: 15px;
 	overflow: hidden;
+	color: #E8E6E3;
 }
 
 * {
@@ -30,6 +31,7 @@ body {
 }
 .likes{
 	font-size: 16px;
+	color: #E8E6E3;
 	margin-bottom: 8px;
 	position: relative;
 	top: 8;
@@ -38,15 +40,18 @@ body {
 .name {
 	font-size: 20px;
 	font-weight: 600;
+	color: #E8E6E3;
 }
 
 .by {
 	font-size: 13px;
 	font-weight: 400;
+	color: #E8E6E3;
 }
 .time {
 	font-size: 12px;
 	font-weight: 500;
+	color: #E8E6E3;
 }
 
 .center {
@@ -100,7 +105,7 @@ body {
   }
   
 .property-description {
-	background-color: #fafafc;
+	background-color: #1A1C1E;
 	height: 12em;
 	width: 12em;
 	position: absolute;
@@ -114,7 +119,7 @@ body {
 }  
 
 .property-description {
-	background-color: #fafafc;
+	background-color: #1A1C1E;
 	height: 12em;
 	width: 14em;
 	position: absolute;
@@ -172,7 +177,7 @@ img {
 	letter-spacing: 2.5px;
 	font-weight: 500;
 	color: #000;
-	background-color: #fff;
+	background-color: #1A1C1E;
 	border: none;
 	border-radius: 45px;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -182,6 +187,11 @@ img {
 	position: absolute;
 	}
   
+.fa-heart{
+	color: #2EE59D;
+	
+}	
+
   .likeButton:hover {
 	background-color: #2EE59D;
 	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);

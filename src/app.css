@@ -3,9 +3,12 @@
 	font-size: 45px;background-ima
 	ge: linear-gradient(315deg, #f39f86 0%, #f9d976 74%); */
  
-	background: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));  
+	background: linear-gradient(to right, #940422, #051A8B);  
 	height:100%;
 	width: 100%;
+}
+p,h2,h1{
+	color: #E8E6E3;
 }
 
 .headCont {
@@ -155,7 +158,8 @@ font-size: 45px;}
   
   .wrapper i:nth-child(1) {
 	/* color:  #1DA1F2; */
-	color: #444;
+	
+	color: #E6E8E3;
 	font-size: 45px;
 	cursor: pointer;
 	text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);

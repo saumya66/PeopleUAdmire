@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+	font-family: "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.property-card {
+	margin: 10px;
+	margin-left: 35px;
+}
+
+.likeButton {
+	border: #e1e1e3;
+	display: flex;
+	margin-top: 8px;
+	margin-left: 8px;
+	overflow: hidden;
+	z-index: 100;
+	position: absolute;
+}
+
+.desc {
+	font-size: 15px;
+	overflow: hidden;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.likes{
+	font-size: 16px;
+	margin-bottom: 8px;
+	position: relative;
+	top: 8;
+}
+
+.name {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.by {
+	font-size: 13px;
+	font-weight: 400;
+}
+.time {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.center {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.property-card {
+	height: 18em;
+	width: 14em;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+	-webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 0 0 30px #000000;
+}
+
+  @media only screen and (max-width: 600px) {
+	  h5{
+		  margin-right: 30px;
+	  }
+	.property-card {
+		height: 18em;
+		width: 12em;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		position: relative;
+		-webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+		-o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+		transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+		border-radius: 16px;
+		overflow: hidden;
+		
+  }
+  
+.property-description {
+	background-color: #fafafc;
+	height: 12em;
+	width: 12em;
+	position: absolute;
+	bottom: 0em;
+	-webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	padding: 0.5em 1em;
+	text-align: center;
+}
+}  
+
+.property-description {
+	background-color: #fafafc;
+	height: 12em;
+	width: 14em;
+	position: absolute;
+	bottom: 0em;
+	-webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	padding: 0.5em 1em;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	z-index: -1;
+}
+
+.property-card:hover .property-description {
+	height: 0em;
+	padding: 0px 1em;
+}
+.property-card:hover .property-image {
+	height: 18em;
+}
+
+.property-card:hover .property-social-icons {
+	background-color: white;
+}
+
+.property-card:hover .property-social-icons:hover {
+	background-color: blue;
+	cursor: pointer;
+}
+
+
+/*ys*/
+.fa-heart{
+	color:black;
+	 font-size: 16px;
+ 
+}
+.likeContent{
+	display: flex;
+	justify-content: center;
+	 
+}
+
+.likeButton {
+	width: 60px;
+	height: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	position: absolute;
+	}
+  
+  .likeButton:hover {
+	background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+  }

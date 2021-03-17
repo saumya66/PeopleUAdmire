@@ -10,6 +10,8 @@
 
 #### Person can be anyone who inspires you or you have learnt things from and you believe others should know about!
 
+Go Post ! : https://people-u-admire.netlify.app
+
 ## Structure
 
 | Purpose |      Stack            |

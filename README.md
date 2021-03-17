@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://people-u-admire.netlify.app/favicon.PNG" alt="PeopleUAdmire logo" width="150"/>
+  <img src="https://people-u-admire.netlify.app/favicon.PNG" alt="PeopleUAdmire logo" width="100"/>
 </p>
-<p align="center">
+<h1 align="center">
   <strong>People U Admire</strong>
-</p>
+</h1>
  
 
 #### To create one place - Made by people, For People to Find Awesome People.

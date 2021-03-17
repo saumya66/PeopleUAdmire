@@ -72,6 +72,16 @@ const App = () => {
 							</a>
 						</div>
 					</div>
+
+					<a
+						target="_blank"
+						href="https://twitter.com/intent/tweet?text=I%20loved%20this.%20Try%20it%20out ! -%20https://people-u-admire.netlify.app/"
+					>
+						<Button className="shareButton" variant="primary">
+							<i class="fa fa-twitter"></i>
+							{"  "}Share
+						</Button>{" "}
+					</a>
 				</Col>
 			</Row>
 		</div>

@@ -1,7 +1,10 @@
 <p align="center">
-  <img src="https://people-u-admire.netlify.app/favicon.PNG" alt="DogeHouse logo" />
+  <img src="https://people-u-admire.netlify.app/favicon.PNG" alt="PeopleUAdmire logo" width="150"/>
 </p>
-#People U Admire 
+<p align="center">
+  <strong>People U Admire</strong>
+</p>
+ 
 
 #### To create one place - Made by people, For People to Find Awesome People.
 
